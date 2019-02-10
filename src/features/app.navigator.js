@@ -1,8 +1,12 @@
-import { createSwitchNavigator, createStackNavigator } from 'react-navigation';
+import {
+  createSwitchNavigator,
+  createStackNavigator,
+  createAppContainer,
+} from 'react-navigation';
 
-import DataAndPollingHandler from './Dashboard/navigatorContainer';
-import SignIn from './Login/components/loginContainer';
-import AuthCheck from './Login/AuthCheck/components/authCheckScreen';
+import Home from './Home/home.navigator';
+import SignIn from './Login';
+import AuthCheck from './AuthCheck';
 
 const Login = createStackNavigator(
   { SignIn },
@@ -15,6 +19,6 @@ const Login = createStackNavigator(
   },
 );
 
-const Dashboard = createStackNavigator({ DataAndPollingHandler });
+const switchNavigator = createSwitchNavigator({ AuthCheck, Home, Login });
 
-export default createSwitchNavigator({ AuthCheck, Dashboard, Login });
+export default createAppContainer(switchNavigator);

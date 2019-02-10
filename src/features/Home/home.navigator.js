@@ -1,30 +1,17 @@
-
 import React from 'react';
-import {
-  createMaterialTopTabNavigator,
-  createAppContainer,
-} from 'react-navigation';
+import { createMaterialTopTabNavigator } from 'react-navigation';
 
-import { Ionicons, Entypo } from '@expo/vector-icons';
+import { Ionicons } from '@expo/vector-icons';
 
-import History from './History/HistoryContainer';
-import Dashboard from './Dashboard/dash.navigator';
+import Home from '.';
 
 const tabNavigator = createMaterialTopTabNavigator(
   {
     Dashboard: {
-      screen: Dashboard,
+      screen: Home,
       navigationOptions: {
         tabBarIcon: ({ tintColor }) => (
-          <Ionicons color={tintColor} name="md-list" size={22} />
-        ),
-      },
-    },
-    History: {
-      screen: History,
-      navigationOptions: {
-        tabBarIcon: ({ tintColor }) => (
-          <Entypo color={tintColor} name="line-graph" size={22} />
+          <Ionicons color={tintColor} name="md-home" size={22} />
         ),
       },
     },
@@ -44,4 +31,4 @@ const tabNavigator = createMaterialTopTabNavigator(
   },
 );
 
-export default createAppContainer(tabNavigator);
+export default tabNavigator;
