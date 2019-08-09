@@ -8,6 +8,6 @@ Probably github wasn't the right place to share this resources, but I don't know
 In the example folder you can find an app that shows all the stuff through expo.<br>
 Here the snack, so that you can try directly on your browser.
 If there will ever be the need to include native stuff, I'll decide how to handle it because expo is really really handy for prototyping.
-<br><br>
+<br>
 ## Contribute
 Open an issue and tell me what you'd like to see in here.
