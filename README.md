@@ -5,8 +5,8 @@ I hate libs that collects just a bunch of useful stuff that you can then import,
 <br>
 Probably github wasn't the right place to share this resources, but I don't know any other services that fits my needs.
 ## What's in here
-- An handy tiny fetch wrapper (services/api.js) that implements abortion (a polyfill where AbortController isn't supported), token injection and handy other futures.
-- A small and simple continuous deployment configuration (uses bash) to produce a build in a blazingly fast way (needs minimal configuration of course)
+- An handy tiny fetch wrapper (services/api.js) that implements **abortion** (it's **also polyfilled** where AbortController isn't supported), **token injection** and handy other futures in few js lines.
+- A small and simple **continuous deployment configuration** (uses bash) to **produce builds in a blazingly fast way** (needs minimal configuration)
 - A navigation service used in conjuction with react-navigation (supported in v3) to navigate outside of components' scope (such redux action creators or others tools)
 
 ## Example
