@@ -1,0 +1,8 @@
+# iOS
+app_identifier "com.bundle" # The bundle identifier of your app
+apple_id "me@gmail.com" # Your Apple email address
+team_id "123123AD"  # Developer Portal Team ID
+
+# Android
+json_key_file "./google-play-api-secret.json" # Path to the json secret file - Follow https://github.com/fastlane/supply#setup to get one
+package_name "com.bundle" # Your Android app package
