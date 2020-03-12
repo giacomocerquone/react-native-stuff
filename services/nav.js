@@ -1,3 +1,6 @@
+// ATTENTION: WORKS FOR V4 AND BELOW
+// NEEDS UPDATES FOR V5 (changes should be just a few)
+
 import { NavigationActions, StackActions } from 'react-navigation';
 
 let navigator;
