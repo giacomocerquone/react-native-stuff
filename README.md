@@ -16,6 +16,10 @@ Probably github wasn't the right place to share this resources, but I don't know
 - A navigation service used in conjuction with react-navigation (needs update to work with v5) to navigate outside of components' scope (such redux action creators or other points of your code).
 - A react-native.config example file that lets you add a font to your RN 0.61 App
 
+### react-native-fast-layout
+
+There is though a lib I decided to create which is [Fast Layout](https://github.com/giacomocerquone/react-native-fast-layout). It let's you create layouts pretty quickly in a flutter style. Try it and let me know what we can improve.
+
 ## Contribute
 
 Open an issue and tell me what you'd like to see in here.
