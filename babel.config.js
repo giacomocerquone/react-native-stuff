@@ -1,3 +1,7 @@
+// make sure to start the packager with
+// react-native start --reset-cache
+// when you change this file
+
 module.exports = function(api) {
   api.cache(true);
   return {
